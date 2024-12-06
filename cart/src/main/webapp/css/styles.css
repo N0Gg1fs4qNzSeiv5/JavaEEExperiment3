@@ -1,0 +1,153 @@
+.central {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.register-title,
+.login-title {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.justify-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.justify-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-items {
+    margin-bottom: 5px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.header {
+    margin-bottom: 5px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.header > .nav {
+    cursor: pointer;
+}
+
+/*good*/
+.goods-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.goods-list-left {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.goods-list-center {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.goods-list-right {
+    flex: 1;
+}
+
+.goods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.goods-left {
+    margin-right: 20px;
+}
+
+.goods-img {
+    width: 200px;
+    height: 200px;
+}
+
+.goods-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.goods-name {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.goods-right-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.goods-right-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.goods-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.goods-button button {
+    margin: 0 5px;
+}
+
+.place-order {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.order-left-top,
+.order-right-top {
+    margin-bottom: 10px;
+}
+
+.order-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.order-right-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-no {
+    font-size: 24px;
+}
+
+.order-create {
+    text-align: right;
+}
+
+.order-pay {
+    margin-right: 5px;
+}
